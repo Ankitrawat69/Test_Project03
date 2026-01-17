@@ -1,20 +1,49 @@
 <?xml version="1.0"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Jan 17, 2026, 4:17:10 PM by Hibernate Tools 3.5.0.Final -->
-<hibernate-mapping>
-    <subclass name="in.co.rays.project_3.dto.SuperMarketDTO" extends="in.co.rays.project_3.dto.BaseDTO" discriminator-value="SuperMarketDTO" lazy="false">
-        <property name="ProductName" type="java.lang.String">
-            <column name="PRODUCTNAME" />
-        </property>
-        <property name="Price" type="java.lang.String">
-            <column name="PRICE" />
-        </property>
-        <property name="Quantity" type="long">
-            <column name="QUANTITY" />
-        </property>
-        <property name="Available" type="java.lang.String">
-            <column name="AVAILABLE" />
-        </property>
-    </subclass>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="in.co.rays.project_3.dto">
+
+	<class name="SuperMarketDTO" table="ST_SUPERMARKET">
+
+		<id name="id" type="java.lang.Long">
+			<column name="ID"/>
+			<generator class="increment"/>
+		</id>
+
+		<property name="name">
+			<column name="NAME"/>
+		</property>
+
+		<property name="price">
+			<column name="PRICE"/>
+		</property>
+
+		<property name="quantity">
+			<column name="QUANTITY"/>
+		</property>
+
+		<property name="available">
+			<column name="AVAILABLE"/>
+		</property>
+
+		<!-- SAME audit fields as CollegeDTO -->
+		<property name="createdBy">
+			<column name="CREATED_BY"/>
+		</property>
+
+		<property name="modifiedBy">
+			<column name="MODIFIED_BY"/>
+		</property>
+
+		<property name="createdDatetime">
+			<column name="CREATED_DATETIME"/>
+		</property>
+
+		<property name="modifiedDatetime">
+			<column name="MODIFIED_DATETIME"/>
+		</property>
+
+	</class>
 </hibernate-mapping>
