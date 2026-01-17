@@ -1,54 +1,60 @@
 package in.co.rays.project_3.dto;
 
-public class SuperMarketDTO extends BaseDTO{
-	
-	private String ProductName;
-	private long Quantity;
-	private String Available;
-	private String Price;
-	
+public class SuperMarketDTO extends BaseDTO {
+
+	private String productName;
+	private long quantity;
+	private String available;
+	private String price;
 
 	public String getProductName() {
-		return ProductName;
+		return productName;
 	}
 
 	public void setProductName(String productName) {
-		ProductName = productName;
+		this.productName = productName;
+	}
+
+	// 🔥 REQUIRED FOR HIBERNATE
+	public String getName() {
+		return productName;
+	}
+
+	public void setName(String name) {
+		this.productName = name;
 	}
 
 	public long getQuantity() {
-		return Quantity;
+		return quantity;
 	}
 
 	public void setQuantity(long quantity) {
-		Quantity = quantity;
+		this.quantity = quantity;
 	}
 
 	public String getAvailable() {
-		return Available;
+		return available;
 	}
 
 	public void setAvailable(String available) {
-		Available = available;
+		this.available = available;
 	}
 
 	public String getPrice() {
-		return Price;
+		return price;
 	}
 
 	public void setPrice(String price) {
-		Price = price;
+		this.price = price;
 	}
 
 	@Override
 	public String getKey() {
-		return id + "";
+		return String.valueOf(id);
 	}
 
 	@Override
 	public String getValue() {
-		return ProductName;
+		return productName;
 	}
-
-
 }
