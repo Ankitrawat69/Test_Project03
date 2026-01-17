@@ -26,7 +26,7 @@ import in.co.rays.project_3.util.ServletUtility;
 /**
  * HostelRoom Controller (Add / Update / Delete)
  * 
- * @author Rishabh Shrivastava
+ * @author Ankit Rawat
  */
 @WebServlet(urlPatterns = { "/ctl/HostelRoomCtl" })
 public class HostelRoomCtl extends BaseCtl {

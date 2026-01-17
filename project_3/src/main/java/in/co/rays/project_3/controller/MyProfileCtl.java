@@ -25,7 +25,7 @@ import in.co.rays.project_3.util.ServletUtility;
  * Myprofile functionality controller.to perform update profile operation and
  * show profile
  * 
- * @author Rishabh Shrivastava
+ * @author Ankit Rawat
  *
  */
 @WebServlet(name = "MyProfileCtl", urlPatterns = { "/ctl/MyProfileCtl" })

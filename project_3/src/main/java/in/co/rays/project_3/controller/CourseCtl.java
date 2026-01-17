@@ -23,7 +23,7 @@ import in.co.rays.project_3.util.ServletUtility;
 /**
  * course functionality ctl.to perform add,delete ,update operation
  * 
- * @author Rishabh Shrivastava
+ * @author Ankit Rawat
  *
  */
 

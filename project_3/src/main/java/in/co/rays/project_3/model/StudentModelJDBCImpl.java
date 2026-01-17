@@ -17,7 +17,7 @@ import in.co.rays.project_3.util.JDBCDataSource;
 
 /**
  * JDBC implements of Student model
- * @author Rishabh Shrivastava
+ * @author Ankit Rawat
  *
  */
 public class StudentModelJDBCImpl implements StudentModelInt {

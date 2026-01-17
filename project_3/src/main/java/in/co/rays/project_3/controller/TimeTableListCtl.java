@@ -24,7 +24,7 @@ import in.co.rays.project_3.util.ServletUtility;
 /**
  * subject functionality controller.to show list
  * 
- * @author Rishabh Shrivastava
+ * @author Ankit Rawat
  *
  */
 @WebServlet(name = "TimeTableListCtl", urlPatterns = { "/ctl/TimeTableListCtl" })
