@@ -251,6 +251,23 @@
 							List</a>
 					</div></li>
 
+<li class="nav-item dropdown" style="padding-left: 5px"><a
+	class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+	role="button" data-toggle="dropdown" aria-haspopup="true"
+	aria-expanded="false"> <font style="color: white;">Super Market
+	</font></a>
+
+	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+		<a class="dropdown-item" href="<%=ORSView.SUPERMARKET_CTL%>"><i
+			class="fa fa-shopping-cart"></i>Add Product</a> 
+		<a class="dropdown-item"
+			href="<%=ORSView.SUPERMARKET_LIST_CTL%>"><i
+			class="fa fa-list"></i>Product List</a>
+	</div>
+</li>
+
+
 				<%
 					}
 					}
