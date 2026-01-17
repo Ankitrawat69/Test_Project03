@@ -193,20 +193,4 @@ public final class ModelFactory {
 
 		return facultyModel;
 	}
-	
-	
-	public SuperMarketModelInt getSuperMarketModel() {
-		SuperMarketModelInt SuperMarketModel = (SuperMarketModelInt) modelCache.get("superMarketModel");
-		if (SuperMarketModel == null) {
-			if ("Hibernate".equals(DATABASE)) {
-					SuperMarketModel = new SuperMarketModelHibImp();
-			}
-			if ("JDBC".equals(DATABASE)) {
-				SuperMarketModel = new SuperMarketModelJDBCImp();
-			}
-			modelCache.put("superMarketModel",SuperMarketModel);
-		}
-
-		return SuperMarketModel;
-	}
 }
