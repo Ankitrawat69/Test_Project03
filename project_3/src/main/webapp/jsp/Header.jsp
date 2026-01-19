@@ -91,7 +91,7 @@
 							<i class="fa fa-edit"></i> Change Password
 						</a>
 					</div></li>
-					 <li class="nav-item dropdown" style="padding-left: 5px;"><a
+				<li class="nav-item dropdown" style="padding-left: 5px;"><a
 					class="nav-link dropdown-toggle" href="#" id="hostelDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <font style="color: white;">Hostel</font>
@@ -102,16 +102,16 @@
 							class="fa fa-bed"></i> Add Hostel Room
 						</a> <a class="dropdown-item" href="<%=ORSView.HOSTELROOM_LIST_CTL%>"><i
 							class="fa fa-user-friends"></i>Hostel List</a>
-					</div></li> 
+					</div></li>
 
-					
+
 
 				<%
 					} else if (userDto.getRoleId() == RoleDTO.ADMIN) {
 				%>
 
- 				 <li class="nav-item dropdown" style="padding-left: 5px;"><a
- 					class="nav-link dropdown-toggle" href="#" id="hostelDropdown"
+				<li class="nav-item dropdown" style="padding-left: 5px;"><a
+					class="nav-link dropdown-toggle" href="#" id="hostelDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <font style="color: white;">Hostel</font>
 				</a>
@@ -121,8 +121,8 @@
 							class="fa fa-bed"></i> Add Hostel Room
 						</a> <a class="dropdown-item" href="<%=ORSView.HOSTELROOM_LIST_CTL%>"><i
 							class="fa fa-list"></i>Hostel List</a>
-					</div></li> 
- 
+					</div></li>
+
 
 
 				<li class="nav-item dropdown" style="padding-left: 5px;"><a
@@ -134,8 +134,8 @@
 
 						<a class="dropdown-item" href="<%=ORSView.USER_CTL%>"><i
 							class="fa fa-user-circle"></i>Add User</a> <a class="dropdown-item"
-							href="<%=ORSView.USER_LIST_CTL%>"><i
-							class="fa fa-list"></i>User List</a>
+							href="<%=ORSView.USER_LIST_CTL%>"><i class="fa fa-list"></i>User
+							List</a>
 					</div></li>
 
 				<li class="nav-item dropdown" style="padding-left: 5px"><a
@@ -164,8 +164,8 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<%=ORSView.ROLE_CTL%>"><i
 							class="fa fa-user-tie"></i>Add Role</a> <a class="dropdown-item"
-							href="<%=ORSView.ROLE_LIST_CTL%>"><i
-							class="fa fa-list"></i>Role List</a>
+							href="<%=ORSView.ROLE_LIST_CTL%>"><i class="fa fa-list"></i>Role
+							List</a>
 					</div></li>
 				<li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -175,8 +175,8 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<%=ORSView.COLLEGE_CTL%>"><i
 							class="fa fa-university"></i>Add College</a> <a class="dropdown-item"
-							href="<%=ORSView.COLLEGE_LIST_CTL%>"><i
-							class="fa fa-list"></i>College List </a>
+							href="<%=ORSView.COLLEGE_LIST_CTL%>"><i class="fa fa-list"></i>College
+							List </a>
 					</div></li>
 				<li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -186,8 +186,8 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<%=ORSView.COURSE_CTL%>"><i
 							class="fa fa-book-open"></i>Add Course</a> <a class="dropdown-item"
-							href="<%=ORSView.COURSE_LIST_CTL%>"><i
-							class="fa fa-list"></i>Course List </a>
+							href="<%=ORSView.COURSE_LIST_CTL%>"><i class="fa fa-list"></i>Course
+							List </a>
 					</div></li>
 				<li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -232,8 +232,8 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<%=ORSView.SUBJECT_CTL%>"><i
 							class="fa fa-calculator"></i>Add Subject</a> <a class="dropdown-item"
-							href="<%=ORSView.SUBJECT_LIST_CTL%>"> <i
-							class="fa fa-list"></i>Subject List
+							href="<%=ORSView.SUBJECT_LIST_CTL%>"> <i class="fa fa-list"></i>Subject
+							List
 						</a>
 					</div></li>
 
@@ -251,7 +251,7 @@
 							List</a>
 					</div></li>
 
-<li class="nav-item dropdown" style="padding-left: 5px"><a
+				<%-- <li class="nav-item dropdown" style="padding-left: 5px"><a
 	class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 	role="button" data-toggle="dropdown" aria-haspopup="true"
 	aria-expanded="false"> <font style="color: white;">Super Market
@@ -266,7 +266,7 @@
 			class="fa fa-list"></i>Product List</a>
 	</div>
 </li>
-
+ --%>
 
 				<%
 					}
