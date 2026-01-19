@@ -138,13 +138,8 @@ public interface ORSView {
 	
 	public String HOSTELROOM_LIST_CTL= APP_CONTEXT + "/ctl/HostelRoomListCtl";
 	
-	public String SUPERMARKET_CTL= APP_CONTEXT + "/ctl/SuperMarketCtl";
 	
-	public String SUPERMARKET_VIEW = PAGE_FOLDER + "/SuperMarketView.jsp";
 	
-	public String SUPERMARKET_LIST_CTL= APP_CONTEXT + "/ctl/SuperMarketListCtl";
-	
-	public String SUPERMARKET_LIST_VIEW = PAGE_FOLDER + "/SuperMarketListView.jsp";
 	
 	
 
